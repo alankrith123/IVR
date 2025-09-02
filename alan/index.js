@@ -13,7 +13,7 @@ app.use("/ivr", ivrRoutes);
 app.use("/acs", acsRoutes);
 app.use("/bap", bapRoutes);
 
-const PORT = 4000;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`🚀 Middleware running at http://localhost:${PORT}`);
 });
